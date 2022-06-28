@@ -1,3 +1,3 @@
 # Team_Project
 
-## CP.1 - Beer Recommendation System
+## CP.1 - Beer Recommendation System(knn, item based)
