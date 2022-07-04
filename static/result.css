@@ -1,0 +1,111 @@
+body {background: #000000;}
+#wrap {width: 1000px; margin: 0 auto; font-size: 40px; color: #fff; text-align: center; text-transform: capitalize; }
+#header {width: 1000px}
+#contents1 {width: 1000px; height: 500px; background: #251e1e;}
+#footer {width: 1000px; height: 200px; background: #272724;}
+
+/* font */
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+.gmarket {
+    font-family: 'GmarketSans';
+}
+
+/* common */
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section {
+    padding: 70px 0;
+}
+.section > h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1;
+    text-align: center;
+}
+.section > p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 70px;
+    line-height: 1.5;
+    color: #777;
+    text-align: center;
+}
+
+/* banner deco */
+.banner__wrap {
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/24/23/41/beer-2439237_1280.jpg);
+    background-position: 50% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner__inner {
+    text-align: center;
+    color: #fff;
+}
+.banner__title {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+/* contents deco */
+.contents__desc {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;    
+    margin: 30px 10px;
+    text-align: start;        
+}
+.contents__sub {
+    font-size: 18px;
+    font-weight: 350;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.contents__bot {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+/* side deco */
+.side__desc {
+    font-size: 16px;
+}
+/* footer deco */
+.footer__wrap {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.blueone table{
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+
+}  
+
+.blueone th {
+padding: 10px;
+color: #168;
+border-bottom: 3px solid #168;
+text-align: center;
+}
+.blueone td {
+color: #669;
+padding: 10px;
+border-bottom: 1px solid #ddd;
+}
+.blueone tr:hover td {
+color: #004;
+}
+
+
+.blueone caption {
+    caption-side: bottom;
+    text-align: left;
+}
