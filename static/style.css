@@ -1,0 +1,103 @@
+body {background: #000000;}
+#wrap {width: 1000px; margin: 0 auto; color: #fff;}
+#header {width: 1000px; font-size: 40px; text-align: center; text-transform: uppercase;}
+#side1 {float: left; width: 300px; height: 400px; background: #251e1e;}
+#contents1 {float: left; width: 700px; height: 400px; background: #251e1e;}
+#footer {float: left; width: 1000px; height: 200px; background: #272724;}
+
+/* font */
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+.gmarket {
+    font-family: 'GmarketSans';
+}
+
+/* common */
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section {
+    padding: 70px 0;
+}
+.section > h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1;
+    text-align: center;
+}
+.section > p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 70px;
+    line-height: 1.5;
+    color: #777;
+    text-align: center;
+}
+
+/* banner deco */
+.banner__wrap {
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/24/23/41/beer-2439237_1280.jpg);
+    background-position: 50% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.banner__inner {
+    text-align: center;
+    color: #fff;
+}
+.banner__title {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+/* contents deco */
+.contents__desc {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;    
+    margin: 30px 10px;
+    text-align: start;        
+}
+.contents__sub {
+    font-size: 18px;
+    font-weight: 350;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.center {
+    text-align: center;
+}
+.contents__bot {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    
+}
+
+/* side deco */
+.side__desc {
+    font-size: 10px;
+    text-align: left;
+}
+
+/* footer deco */
+.footer__wrap {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+#beer_menu{
+    width:400px;
+    height:35px;   
+   }
+
+#beer_bar{
+    text-align: left;
+   }
